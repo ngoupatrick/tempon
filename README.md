@@ -13,10 +13,11 @@ pareil que "log_server.sh", mais un version destinée à créer l'image docker
 
 # Dockerfile
 Contient les instructions pour construire l'image
-- cmd build: "sudo docker build -t log_server ."
+- cmd build: 
+  > "sudo docker build -t log_server ."
 - cmd run image build from Dockerfile:
- "sudo docker run -v [absolute_path_to_folder_where_is_your_log_file]:/home/temp --name [name] log_server [log_file_name]"
+  > "sudo docker run -v [absolute_path_to_folder_where_is_your_log_file]:/home/temp --name [name] log_server [log_file_name]"
 - cmd run image downloaded from my repository <ngoupatrick>:
-  URL Docker HUB: https://hub.docker.com/repository/docker/ngoupatrick/log_server
- "sudo docker run -v [absolute_path_to_folder_where_is_your_log_file]:/home/temp --name [name] ngoupatrick/log_server [log_file_name]"
+  > URL Docker HUB: https://hub.docker.com/repository/docker/ngoupatrick/log_server
+  > "sudo docker run -v [absolute_path_to_folder_where_is_your_log_file]:/home/temp --name [name] ngoupatrick/log_server [log_file_name]"
   
