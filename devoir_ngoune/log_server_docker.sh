@@ -2,7 +2,13 @@
 
 echo "********************************************************"
 echo "** Script permettant de manipuler les logs du serveur **"
+echo "**                  Version Docker                    **"
 echo "********************************************************"
+
+#adding: for docker
+cd /home/temp
+#end adding
+
 echo ""
 echo "1- Nombre de ligne du fichier $1"
 wc -l $1
