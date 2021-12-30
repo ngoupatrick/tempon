@@ -26,4 +26,11 @@ ENTRYPOINT ["log_server"]
 
 #NB the default image name is <log_server>
 #build command: <sudo docker build -t log_server .>
-#run command: <sudo docker run -v [absolute_path_to_folder_where_is_your_log_file]:/home/temp --name [name] log_server [log_file_name]>
+#run command:
+
+#1- if you build from Dockerfile:
+#	 <sudo docker run -v [absolute_path_to_folder_where_is_your_log_file]:/home/temp --name [name] log_server [log_file_name]>
+
+#2- if you download from my reposotory <ngoupatrick>:
+#        <sudo docker run -v [absolute_path_to_folder_where_is_your_log_file]:/home/temp --name [name] ngoupatrick/log_server [log_file_name]>
+
