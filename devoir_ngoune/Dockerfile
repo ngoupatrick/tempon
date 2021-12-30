@@ -1,8 +1,6 @@
 #Dockerfile aims to create a Docker images which will run file <log_server_docker.sh> using command <log_server [file]>
 
-# To run the container use command: <sudo docker run --name [name] -d [image] [log_file]>
-# It will run <log_server_docker.sh> on the corresponding [log_file]
-
+# Build and run commands are at the bottom page
 # Step to create Dockerfile
 
 #1- Specify base image
